@@ -4,8 +4,8 @@
 	clearReferencesStopThreads="true" clearReferencesStopTimerThreads="true"
 	docBase="D:\workspaces\kubernetes\env-entry\target\env-entry">
 
-	<Environment name="app" type="java.lang.String"
-		value="${catalina.base}/webapps/echo-service" />
+	<Environment name="base" type="java.lang.String"
+		value="${catalina.base}/webapps/env-entry" />
 
 
 	<Environment name="url" type="java.lang.String"
@@ -13,6 +13,9 @@
 		
 	<Environment name="host" type="java.lang.String"
 		value="${host.name}" />
+		
+	<Environment name="app" type="java.lang.String"
+		value="${app.name}" />
 
 
 </Context>

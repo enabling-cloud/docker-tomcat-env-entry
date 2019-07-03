@@ -10,7 +10,7 @@
 	%>
 
 	<ul>
-		<h2>Reading an Object</h2>
+		<h2>Reading one Object</h2>
 		<li>url :
 		<%=url%>
 		</li>
