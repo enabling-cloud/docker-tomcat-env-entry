@@ -10,6 +10,9 @@
 
 	<Environment name="url" type="java.lang.String"
 		value="http://localhost:8080/echo-service" />
+		
+	<Environment name="host" type="java.lang.String"
+		value="${host.name}" />
 
 
 </Context>
